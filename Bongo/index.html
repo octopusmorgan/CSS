@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongo Cat /ᐠ.ꞈ.ᐟ\</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="instrument">
+        <table>
+        <tr>
+            <td>
+                <button onclick="changeBongo0(),bongo0.play()" onmouseleave="pawsUp()"><img src="/Bongo/img/bongo.png" alt="" width="150"></button>
+            </td>
+            <td>
+                <button onclick="changeBongo1(),bongo1.play()" onmouseleave="pawsUp()"><img src="/Bongo/img/bongo.png" alt="" width="150"></button>
+            </td>
+        </tr>
+        <tr>
+            <td>Bongo 1</td>
+            <td>Bongo 2</td>
+        </tr>
+    </table>
+    
+    
+        
+
+    </div>
+
+
+    <script>
+        function changeBongo0() {
+            document.body.style.background = "url(/Bongo/img/bongoLeft.png) no-repeat" ;
+
+        }
+        var bongo0 = new Audio("/Bongo/sounds/bongo0.mp3");
+        function changeBongo1() {
+            document.body.style.background = "url(/Bongo/img/bongoRigth.png) no-repeat";
+
+        }
+        var bongo1 = new Audio("/Bongo/sounds/bongo1.mp3");  
+        function pawsUp(){
+            document.body.style.background = "url(/Bongo/img/pawsUp.png) no-repeat";
+        }
+    </script>
+
+
+</body>
+
+</html>

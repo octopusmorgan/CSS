@@ -1,0 +1,24 @@
+body {
+  /*Adjust the backgroud image to the browser*/   
+  background-image: url(/Bongo/img/pawsUp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#instrument {
+  /*Buttons on the bottom and center*/
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+
+  text-align: center;
+}
+button {
+  /*No border*/  
+  padding: 0;
+  border: none;
+  background: none;
+}

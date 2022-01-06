@@ -1,0 +1,91 @@
+@font-face{
+    font-family: 'pixelItalic';
+    src: url(./fonts/PixelCalculonItalic.otf);
+}
+@font-face {
+    font-family: 'retroComputer';
+    src: url(./fonts/MAINBB__.TTF);
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-color: rgb(54, 51, 51);
+    color: rgb(246, 233, 233);
+}
+div.menu{
+    text-align: center;
+    color: rgb(246, 233, 233) 
+}
+a { 
+    color: inherit;
+    text-decoration: none; 
+}
+a:hover 
+{
+     color:rgb(253, 202, 64);
+     text-decoration:none; 
+     cursor:pointer;  
+}
+
+#sigla{
+    font-size: 50px;
+    font-family: 'retroComputer';
+    color:rgb(77, 164, 234);
+    
+}
+#name{
+    font-family: 'retroComputer';
+    font-size: 50px;
+    color: rgb(251, 54, 64);
+    text-align: center;
+}
+#description{
+    margin: 1%;
+    font-size: 15px;
+    text-align: justify;
+}
+#titles{
+    font-family: 'pixelItalic';
+    font-size: 40px;
+    color: rgb(253, 202, 64);
+
+}
+#tag{
+    color: rgb(77, 164, 234);
+}
+#tagWhite{
+    color: rgb(246, 233, 233);
+}
+div.skills{
+    margin-left: 5%;
+    align-content: space-around;
+    text-align: justify;
+}
+#table{
+    width: 30%;
+}
+#tableHead strong{
+    color:rgb(251, 54, 64);
+}
+div.experience{
+    margin: 2.5%;
+}
+div.connect{
+margin-left: 7%;
+}
+
+div.connect button{
+    margin-right: 2%;
+    background-color: rgb(251, 54, 64);
+    color: rgb(246, 233, 233);
+    font-size: 24px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div.connect img{
+    width: 60px;
+    margin: 2%;
+    align-content: center;
+}
+#end{
+    text-align: right;
+    color: rgb(77, 164, 234);
+}
