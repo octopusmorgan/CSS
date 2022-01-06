@@ -1,0 +1,54 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+div.alert{
+    color: #72353D;  
+    background-color: #EAD2D5;
+}
+
+#tag0{
+    height: 200px;
+    width: 40%;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    transform: rotate(90deg);
+    margin-top: 20%;
+}
+#tag1{
+    height: 200px;
+    width: 40%;
+    background-color: red;
+    padding: 20px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    transform: rotate(90deg);
+    margin-left: auto;
+}
+@-webkit-keyframes blueRed {  
+    0% { background-color: blue; }
+    50% { background-color: blue; }
+    51% { background-color: red; }
+    100% { background-color: red; }
+}
+@-webkit-keyframes redBlue {  
+    0% { background-color: red; }
+    50% { background-color: red; }
+    51% { background-color: blue; }
+    100% { background-color:blue; }
+}
+.blinkBlue{
+    -webkit-animation-name: blueRed;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s ;
+}
+.blinkRed{
+    -webkit-animation-name: redBlue;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 5s ;
+}
